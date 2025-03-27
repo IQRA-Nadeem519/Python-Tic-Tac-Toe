@@ -1,0 +1,63 @@
+# Tic-Tac-Toe
+
+A simple command-line Tic-Tac-Toe game implemented in Python.
+
+## Features
+- Two-player mode
+- Simple console interface
+- Automatic board clearing for better visuals
+- Input validation to prevent invalid moves
+- Replay option after game completion
+
+## How to Play
+1. Run the script in a Python environment.
+2. Players take turns choosing a position (1-9) to place their mark (X or O).
+3. The game checks for a winner or a draw after each move.
+4. The game announces the winner or declares a draw if the board is full.
+5. Players can choose to replay after a game ends.
+
+## Installation & Execution
+1. Clone this repository or download the script.
+   ```sh
+   git clone https://github.com/yourusername/tic-tac-toe.git
+   cd tic-tac-toe
+   ```
+2. Run the script with Python:
+   ```sh
+   python tic_tac_toe.py
+   ```
+
+## Game Controls
+- Enter a number between 1-9 to place your move.
+- The positions correspond to the board as follows:
+  ```
+  1 | 2 | 3
+  ---------
+  4 | 5 | 6
+  ---------
+  7 | 8 | 9
+  ```
+- Enter "yes" to replay or "no" to quit after a game ends.
+
+## Requirements
+- Python 3.x
+
+## Example Gameplay
+```
+Player X, enter a position (1-9): 5
+  X  
+---------
+     
+---------
+    
+```
+```
+🎉 Player X wins! 🎉
+```
+
+## License
+This project is licensed under the MIT License.
+
+## Author
+Your Name (Replace with your GitHub username)
+
